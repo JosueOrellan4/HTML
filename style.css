@@ -90,34 +90,84 @@ h1{
     column: organiza os itens verticalmente, de cima para baixo.     
     */
 }
-.imagens{
+
+.link{
     display: flex;
-    justify-content: center;
-    margin-left: 10%;
-}
-.logo1{
-    width: 314px;
-    height: 368px;
-    border: 2px solid black;
-    padding: 3px;
-    margin: 0px 35px;
-    margin-top: 200px;
-}
-.logo2{
-    border: 2px solid black;
-    padding: 3px;
-    margin: 0px 35px;
-    margin-top: 200px;
-}
-.logo3{
-    border: 2px solid black;
-    padding: 3px;
-    margin: 0px 35px;
-    margin-top: 200px;
-}
-.bt{
-    float: right;
+    align-items: center;
+    justify-content:space-between;
 }
 h2{
     text-align: left;
+}
+#pagina-galeria{
+    background-color: #e2e4e3;
+}
+#pagina-galeria figure{
+    transition: 0.3s ease;
+}
+#pagina-galeria figure:hover{
+    filter: grayscale(1);
+}
+#pagina-galeria main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotos{
+    width: 314px;
+    height: 368px;
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    margin: 5px 30px;
+    
+}
+
+figcaption{
+    color: white;
+    background-color: #c95e10;
+    padding: 3px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#pagina-valores{
+    background-color: #f9ead8;
+}
+table,th{
+    border-collapse: collapse;
+    border: 2px outset;
+    letter-spacing: 1px;
+    width: 35%;
+    background-color: #d9d9d9;
+    margin: auto;
+    border: 1px solid #000000;
+}
+th{
+    border: none;
+}
+td{
+    border: 1px solid #000000;
+    padding: 10px 55px;
+}
+tbody{
+    text-align: center;
+}
+tfoot{
+    text-align: center;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #833f00;
+    
+}
+h3{
+    color: white;
+    font-size: 45px;
 }
