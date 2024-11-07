@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    border: 2px outset;
+    letter-spacing: 1px;
+    width: 50%;
+
+}
+
+thead {
+    background-color: aqua;
+}
+
+th,
+td {
+    border: 1px outset;
+    padding: 8px 10px;
+}
+
+
+tbody {
+    background-color: rgb(229, 247, 247);
+    text-align: center;
+}
+tfoot{
+    background-color: rgb(22, 211, 211);
+    text-align: center;
+}

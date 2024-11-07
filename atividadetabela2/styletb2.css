@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+}
+
+th{
+    padding: 20px;
+}
+td{
+    border: 1px solid;
+    padding: 55px;
+}
+p{
+    color: orangered;
+}

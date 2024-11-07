@@ -1,0 +1,19 @@
+body{
+    background-color: #F4A460;
+}h1{
+    font-size: 55px;
+    background-color: rgb(255, 69, 0,0.3);
+    color: rgb(255, 0, 255);
+}h2{
+    font-size: 35px;
+    background-color: rgb(255, 255, 0,0.4);
+    color: #FF00FF43;
+}.galeria{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    object-position: top;
+}.capa{
+    height: 400px;
+    width: 600px;
+}
