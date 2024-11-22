@@ -12,10 +12,9 @@
     <!--<label for="campo1">Digite seu nome</label> <!--label é um identificador-->
     <input type="text" id="campo1" placeholder="Digite um numero" name="primeiroNumero"><!--placeholder é uma identificação visual-->   <!--tipos de input: date, color, datetimelocal, password, search, number-->
     <br>
-    <!--<label for="campo2">Digite seu nome</label>-->
-    <input type="text" id="campo2" placeholder="Digite outro numero" value="100" readonly name="segundoNumero"> <!--deixa com um valor fixo-->
+    <input type="text" id="campo2" placeholder="Digite outro numero"  name="segundoNumero"><!--value="100" readonly deixa com um valor fixo-->
     <br><br>
-    <input type="text" id="campo3" placeholder="resultado" disabled> <!-- disabled: serve pra deixar um campo bloqueado-->
+    <input type="text" id="campo3" placeholder="Resultado" name="resultado" disabled > <!-- disabled: serve pra deixar um campo bloqueado-->
 
     <!--<textarea name="" id="campo2" rows="4" cols="12"></textarea> <!--campo para preencher com textos maiores/cols: caracteres por linha-->
     <input type="submit">
@@ -31,7 +30,7 @@
 
         campo3.value = parseInt(campo1.value)+ parseInt(campo2.value)
         
-        console.log(campo2.value)
+        console.log(campo3.value)
     }
 </script>
 

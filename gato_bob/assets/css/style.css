@@ -1,0 +1,81 @@
+body {
+    background-image: url("../img/James_and_Bob\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+font-size: 40px;
+color: #292929;
+margin-bottom: 10px;
+}
+.espaço1{
+    font-size: 23px;
+    color: #545454;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+input{
+    width: 440px;
+    height: 70px;
+    border-radius:10px;
+    border: none;
+    border-color: white;
+    flex-direction: column;
+}
+input[type="password"] {
+    padding-left: 20px;  
+}
+input[type="Email"] {
+    padding-left: 20px;  
+}
+.editinput{
+    text-align: center;
+}
+.espaço2{
+    margin-bottom: 10px; /*muda o espaço entre o texto "ou continue com" e os botoes social-icones*/
+    font-size: 23px;
+    color: #545454;
+    font-weight: normal;
+    
+}
+
+
+
+
+.social-icones {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 585px;
+    height: 690px;
+    padding: 55px;
+}
+form {
+    padding: 167px;
+}
+
+.social-botao  {
+    border: none;
+    background-color: #F7F7F7;
+    width: 140px;
+    height: 70px;
+    border-radius: 4px;
+}
+
+.botao_entrar{
+    background-color: #0366FF;
+    width: 312px;
+    height: 62px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
